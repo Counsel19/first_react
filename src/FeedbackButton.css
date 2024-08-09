@@ -1,0 +1,14 @@
+.feedback_btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(100 116 139);
+  color: white;
+  display: grid;
+  place-content: center;
+  border: 0;
+}
+
+.variant {
+  color: rgb(245 158 11);
+}
