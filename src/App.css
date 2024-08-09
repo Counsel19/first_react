@@ -1,0 +1,8 @@
+.container {
+  background-color: rgb(15 23 42);
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}

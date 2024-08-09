@@ -1,0 +1,52 @@
+.card__wrapper {
+  width: 400px;
+  height: fit-content;
+  display: grid;
+  gap: 2rem;
+  background-color: rgb(30 41 59);
+  margin-inline: auto;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.card__wrapper .star {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(100 116 139);
+  color: rgb(245 158 11);
+  display: grid;
+  place-content: center;
+}
+
+.card__wrapper h3 {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.card__wrapper p {
+  color: rgb(71 85 105);
+}
+
+.card__wrapper .feedback__btns {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+.card__wrapper > button:last-of-type {
+  height: 50px;
+  display: grid;
+  place-content: center;
+  background-color: rgb(245 158 11);
+  border-radius: 2rem;
+  border: 0;
+}
+
+.card__wrapper input {
+  height: 50px;
+  padding: 0.5rem;
+  border-radius: .8rem;
+  border: 0;
+  width: 100%;
+}
